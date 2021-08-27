@@ -1,0 +1,9 @@
+body{
+    background-color:#fbdd9d;
+    background-image: url('../../images/sunflower.jpg');
+    background-repeat:repeat-x;
+    background-position: center;
+}
+h1{
+    color:#4f4e28;
+}
