@@ -7,26 +7,26 @@ body{
 h1{
     color:#4f482e;
 }
-ul {
+ul.main {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-li{
+li.main{
     float: left;
 }
-li a {
+li.main a {
     display:block;
     padding: 15px;
     margin-left: 10px;
     margin-right: 10px;
     background-color:#e9bf59;
 }
-li a:hover{
+li.main a:hover{
     background-color:#e8b12d;
 }
-li.active{
+#active{
     background-color:#e8b12d;
 }
 a:link{
@@ -38,26 +38,111 @@ a:visited{
 }
 #aboutbutton1 {
     background-color:#e9bf59;
-    padding:5px;
-    font-size:30px;
+    padding:15px;
+    font-size:40px;
+    margin-left: 25%;
+}
+#aboutbutton1:hover {
+    background-color:#e8b12d;
+    padding:15px;
+    font-size:50px;
+    margin-left: 25%;
 }
 #skillsbutton1 {
     background-color:#e9bf59;
-    padding:5px;
-    font-size:30px;
+    padding:15px;
+    font-size:40px;
+    float: right;
+    margin-right: 25%;
+    bottom: 20px;
+}
+#skillsbutton1:hover {
+    background-color:#e8b12d;
+    padding:15px;
+    font-size:50px;
+    margin-left: 25%;
 }
 #passionsbutton1 {
     background-color:#e9bf59;
-    padding:5px;
-    font-size:30px;
+    padding:15px;
+    font-size:40px;
+    float: right;
+    margin-right: 25%;
+}
+#passionsbutton1:hover {
+    background-color:#e8b12d;
+    padding:15px;
+    font-size:50px;
+    margin-left: 25%;
 }
 #contactbutton1 {
     background-color:#e9bf59;
-    padding:5px;
-    font-size:30px;
+    padding:15px;
+    font-size:40px;
+    margin-left: 25%;
+}
+#contactbutton1:hover {
+    background-color:#e8b12d;
+    padding:15px;
+    font-size:50px;
+    margin-left: 25%;
 }
 #projectsbutton1 {
     background-color:#e9bf59;
-    padding:5px;
-    font-size:30px;
+    padding:15px;
+    font-size:40px;
+    margin-left: 25%;
+}
+#projectsbutton1:hover {
+    background-color:#e8b12d;
+    padding:15px;
+    font-size:50px;
+    margin-left: 25%;
+}
+#vdotline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 22%;
+    background-repeat: no-repeat;
+}
+#vdotlinem {
+    padding-top: 30px;
+    margin-left: 22%;
+    background-repeat: no-repeat;
+}
+#vdotliner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left:67%;
+    background-repeat: no-repeat;
+}
+#vdotlinerm {
+    padding-top: 30px;
+    margin-left: 67%;
+    background-repeat: no-repeat;
+}
+#hdotline1 {
+    transform: rotate(90deg);
+    margin-left: 28%;
+}
+#hdotline {
+    transform: rotate(90deg);
+}
+div.letter{
+    background-color:#e9bf59;
+    display:table-cell;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+ul.alphabet{
+    list-style-type: none;
+    background-color: #e9bf59;
+    float:left;
+    padding:15px;
+    font-size: 30px;
+    color: #331f00;
+}
+table.projects{
+    width: 100%;
 }
