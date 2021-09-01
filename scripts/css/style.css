@@ -1,52 +1,34 @@
-body{
-    background-color:#fbdd9d;
+/*ALL PAGES*/
+
+body.otherpages{
+    background-color:#f9f2da;
     background-image: url('../../images/sunflower.jpg');
     background-repeat:repeat-x;
-    background-position: center;
+    background-position:bottom;
 }
 h1{
     color:#4f482e;
 }
-ul.main {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li.main{
-    float: left;
-}
-li.main a {
-    display:block;
-    padding: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color:#e9bf59;
-}
-li.main a:hover{
-    background-color:#e8b12d;
-}
-#active{
-    background-color:#e8b12d;
-}
-a:link{
-    text-decoration: none;
-    color:#331f00;
-}
-a:visited{
-    color:#331f00;
+
+/*INDEX PAGE*/
+body.indexpage{
+    /*Create flowers to wrap around the dotted lines!!!*/
+    background-color:#f9f2da;
+    background-image: url('../../images/sunflower.jpg');
+    background-repeat:repeat-x;
+    background-position:bottom;
 }
 #aboutbutton1 {
     background-color:#e9bf59;
     padding:15px;
     font-size:40px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #aboutbutton1:hover {
     background-color:#e8b12d;
     padding:15px;
     font-size:50px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #skillsbutton1 {
     background-color:#e9bf59;
@@ -79,47 +61,51 @@ a:visited{
     background-color:#e9bf59;
     padding:15px;
     font-size:40px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #contactbutton1:hover {
     background-color:#e8b12d;
     padding:15px;
     font-size:50px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #projectsbutton1 {
     background-color:#e9bf59;
     padding:15px;
     font-size:40px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #projectsbutton1:hover {
     background-color:#e8b12d;
     padding:15px;
     font-size:50px;
-    margin-left: 25%;
+    margin-left: 24%;
 }
 #vdotline {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 22%;
     background-repeat: no-repeat;
+    size: 50%;
 }
 #vdotlinem {
     padding-top: 30px;
     margin-left: 22%;
     background-repeat: no-repeat;
+    size: 50%;
 }
 #vdotliner {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-left:67%;
     background-repeat: no-repeat;
+    size: 50%;
 }
 #vdotlinerm {
     padding-top: 30px;
     margin-left: 67%;
     background-repeat: no-repeat;
+    size: 50%;
 }
 #hdotline1 {
     transform: rotate(90deg);
@@ -128,12 +114,61 @@ a:visited{
 #hdotline {
     transform: rotate(90deg);
 }
+#logoheader{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#credits{
+    margin-left: 12.5%;
+}
+
+/*NAVIGATION LINKS*/
+nav{
+    border:2px solid #331f00;
+    padding: 5px;
+}
+ul.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li.main{
+    float: left;
+}
+li.main a {
+    display:block;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#e9bf59;
+}
+li.main a:hover{
+    background-color:#e8b12d;
+}
+#active{
+    background-color:#e8b12d;
+}
+a:link{
+    text-decoration: none;
+    color:#331f00;
+}
+a:visited{
+    color:#331f00;
+}
+
+/*PROJECTS PAGE*/
+
+/*Alphabet selector*/
 div.letter{
     background-color:#e9bf59;
     display:table-cell;
-    padding-right: 15px;
-    padding-left: 15px;
-    font-size: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 40px;
+    border: 2px solid #331f00;
 }
 ul.alphabet{
     list-style-type: none;
@@ -142,7 +177,97 @@ ul.alphabet{
     padding:15px;
     font-size: 30px;
     color: #331f00;
+    border: 2px solid #331f00;
 }
+th.alpha{
+    border: 2px solid #331f00;
+}
+
+/*Entire page*/
 table.projects{
     width: 100%;
+    padding:30px;
+}
+
+/*Main text*/
+img.projectsimages{
+    width: 150px;
+    display: table-cell;
+    padding: 10px;
+}
+p.projectsbox{
+    border: 2px solid #331f00;
+    background-color: #fbdd9d81;
+}
+th.projectmaintext{
+    width:75%;
+    display: table-cell;
+    border: 2px solid #331f00;
+}
+
+/*Key*/
+th.key{
+    border: 2px solid #331f00;
+}
+div.colorselector{
+    display: table-cell;
+    width:30px;
+    height:30px;
+}
+#key{
+    font-size: 20pt;
+    display: table-cell;
+    padding-left: 20px;
+}
+#designcs{
+    background-color: #b3c3a4;
+}
+#tinyhomecs{
+    background-color: #e0cbbc;
+}
+#artcs{
+    background-color: #c0a8a4;
+}
+#writingcs{
+    background-color: #748c58;
+}
+#webdevcs{
+    background-color: #a26420;
+}
+#progcs{
+    background-color: #a95039;
+}
+#gamecs{
+    background-color: #d7a27f;
+}
+span.colorseltext{
+    font-size: 15pt;
+    display: table-cell;
+}
+span.projectsdescription{
+    display: table-cell;
+}
+
+/*PASSIONS PAGE*/
+#page_wrapper{
+    border-radius:5px;
+    border: 2px solid #331f00;
+    padding: 10px;
+    height:800px;
+    width: 700px;
+    background-color:rgba(65, 50, 18, 0.85);
+}
+p.p_content1{
+    font-size: 12pt;
+    color: seashell;
+    font-family: verdana;
+    background-color: #331f00;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fbdd9d;
+}
+#font1{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: georgia;
 }
