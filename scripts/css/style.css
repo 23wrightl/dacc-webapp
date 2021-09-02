@@ -162,6 +162,9 @@ a:visited{
 /*PROJECTS PAGE*/
 
 /*Alphabet selector*/
+html{
+    scroll-behavior: smooth;
+}
 div.letter{
     background-color:#e9bf59;
     display:table-cell;
@@ -175,18 +178,24 @@ ul.alphabet{
     background-color: #e9bf59;
     float:left;
     padding:15px;
-    font-size: 30px;
+    font-size: 25px;
     color: #331f00;
     border: 2px solid #331f00;
+    position: fixed;
+    top:9%;
+    left:1%;
 }
-th.alpha{
-    border: 2px solid #331f00;
+td.alpha{
+    width:5%;
 }
 
 /*Entire page*/
 table.projects{
     width: 100%;
     padding:30px;
+}
+tr.projecctstr{
+    vertical-align: top;
 }
 
 /*Main text*/
@@ -199,25 +208,39 @@ p.projectsbox{
     border: 2px solid #331f00;
     background-color: #fbdd9d81;
 }
-th.projectmaintext{
+td.projectmaintext{
     width:75%;
     display: table-cell;
-    border: 2px solid #331f00;
+}
+span.projectsdescription{
+    display: table-cell;
 }
 
 /*Key*/
-th.key{
+td.key{
+    display:table-cell;
+    width:20%;
+    position:fixed;
+    top:15%;
+    right:1%;
+}
+div.keybox{
+    background-color: #fbdd9d81;
     border: 2px solid #331f00;
+    padding:15px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 div.colorselector{
-    display: table-cell;
     width:30px;
     height:30px;
+    display:table-cell;
 }
 #key{
     font-size: 20pt;
-    display: table-cell;
     padding-left: 20px;
+    display:table-cell;
 }
 #designcs{
     background-color: #b3c3a4;
@@ -242,32 +265,62 @@ div.colorselector{
 }
 span.colorseltext{
     font-size: 15pt;
-    display: table-cell;
-}
-span.projectsdescription{
-    display: table-cell;
+    display:table-cell;
 }
 
-/*PASSIONS PAGE*/
-#page_wrapper{
-    border-radius:5px;
+
+/*PASSIONS/SKILLS PAGE*/
+div.strengthsbutton{
+    background-color: #e9bf59;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding:5px;
+    font-size: 15pt;
+    width:13%;
     border: 2px solid #331f00;
-    padding: 10px;
-    height:800px;
-    width: 700px;
-    background-color:rgba(65, 50, 18, 0.85);
+    text-align: center;
+    margin-left:30px;
 }
-p.p_content1{
-    font-size: 12pt;
-    color: seashell;
-    font-family: verdana;
-    background-color: #331f00;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #fbdd9d;
+div.strengthsbox{
+    background-color:#e9be5986;
+    width:75%;
+    height:300px;
+    padding: 50px;
+    position:relative;
+    left:10%;
+    right:10%;
+    border: 2px solid #331f00;
 }
-#font1{
-    font-size: 20pt;
-    font-weight: bold;
-    font-family: georgia;
+span.strengthstext{
+    text-align: left;
+    font-size: 15pt;
+}
+img.strengthsimg{
+    width:150px;
+    float:right;
+    padding:20px;
+}
+ul.strengthslinks{
+    list-style-type:circle;
+    text-align: left;
+    font-size: 15pt;
+}
+
+/*CONTACT PAGE*/
+div.businessemail{
+    background-color: #e9bf59;
+    padding:15px;
+    width:100;
+    border: 2px solid #331f00;
+    position:relative;
+    top:45px;
+}
+div.emaildescript{
+    position: relative;
+    top: -25px;
+    left: 150px;
+    background-color: #e9be598a;
+    padding:15px;
+    border: 2px solid #331f00;
+    width:800px;
 }
