@@ -324,3 +324,36 @@ div.emaildescript{
     border: 2px solid #331f00;
     width:800px;
 }
+
+/*ABOUT PAGE*/
+
+#professionalphoto{
+    width:150px;
+    border: 2px solid #331f00;
+    float: left;
+    margin:20;
+}
+div.prophoto{
+    background-color: #e9be5983;
+    border: 2px solid #331f00;
+    width:60%;
+    height: 190px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#prophototext{
+    padding: 15px;
+    margin-left: 20px;
+}
+#quote{
+    padding: 15px;
+    margin-left:20px;
+}
+div.quotebox{
+    background-color: #e9be5983;
+    border: 2px solid #331f00;
+    width:60%;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
