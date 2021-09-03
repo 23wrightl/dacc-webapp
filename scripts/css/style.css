@@ -1,10 +1,21 @@
 /*ALL PAGES*/
-
+span{
+    font-family: Andale, monospace;
+}
 body.otherpages{
     background-color:#f9f2da;
     background-image: url('../../images/sunflower.jpg');
     background-repeat:repeat-x;
     background-position:bottom;
+}
+a{
+    font-family: Andale, monospace;
+}
+div{
+    font-family: Andale, monospace;
+}
+li{
+    font-family: Andale, monospace;
 }
 h1{
     color:#4f482e;
@@ -306,6 +317,68 @@ ul.strengthslinks{
     font-size: 15pt;
 }
 
+/*SUB-SKILLS & PASSIONS*/
+div.substrengthsbox{
+    background-color:#e9be5986;
+    width:50%;
+    height:550px;
+    padding: 50px;
+    position:relative;
+    left:10%;
+    right:10%;
+    border: 2px solid #331f00;
+}
+span.substrengthstext{
+    text-align: left;
+    font-size: 15pt;
+}
+img.substrengthsimg1{
+    background-color:#e9be5986;
+    border: 2px solid #331f00;
+    width:175px;
+    float:right;
+    margin-right:15%;
+    position: relative;
+    bottom: 20%;
+}
+img.substrengthsimg2{
+    background-color:#e9be5986;
+    border: 2px solid #331f00;
+    width:175px;
+    float:right;
+    margin-right:15%;
+    position: relative;
+    bottom: 45%;
+    left:24.5%;
+}
+img.substrengthsimg3{
+    background-color:#e9be5986;
+    border: 2px solid #331f00;
+    width:175px;
+    float:right;
+    margin-right:15%;
+    position: relative;
+    bottom: 70%;
+    left:49%;
+}
+ul.substrengthslinks{
+    list-style-type:circle;
+    text-align: left;
+    font-size: 15pt;
+}
+div.back{
+    background-color: #e9bf59;
+    border: 2px solid #331f00;
+    width:5%;
+    position:relative;
+    left:70%;
+    bottom:7%;
+}
+#backtext{
+    padding-left:30px;
+    font-family: Andale, monospace;
+}
+
 /*CONTACT PAGE*/
 div.businessemail{
     background-color: #e9bf59;
@@ -344,10 +417,14 @@ div.prophoto{
 #prophototext{
     padding: 15px;
     margin-left: 20px;
+    font-family: Andale mono, monospace;
 }
 #quote{
     padding: 15px;
-    margin-left:20px;
+    position:relative;
+    top:15px;
+    left:250px;
+    font-family: Andale mono, monospace;
 }
 div.quotebox{
     background-color: #e9be5983;
@@ -356,4 +433,40 @@ div.quotebox{
     height: 50px;
     margin-left:auto;
     margin-right:auto;
+}
+div.personaldescript{
+    background-color: #e9be5983;
+    border: 2px solid #331f00;
+    width:50%;
+    height: 100px;
+    margin-left: 30%;
+    margin-right:auto;
+}
+span.personaltext{
+    font-family: Andale mono, monospace;
+}
+img.personalimg{
+    width: 100px;
+    border: 2px solid #331f00;
+    position: relative;
+    top: 11%;
+    left: 22%;
+}
+div.personaldescript2{
+    background-color: #e9be5983;
+    border: 2px solid #331f00;
+    width:50%;
+    height: 100px;
+    margin-left: 22%;
+    margin-right:auto;
+}
+span.personaltext2{
+    font-family: Andale mono, monospace;
+}
+img.personalimg2{
+    width: 100px;
+    border: 2px solid #331f00;
+    position: relative;
+    top: 11%;
+    left: 75%;
 }
