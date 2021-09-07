@@ -13,6 +13,7 @@ a{
 }
 div{
     font-family: Andale, monospace;
+    overflow-x:hidden;
 }
 li{
     font-family: Andale, monospace;
