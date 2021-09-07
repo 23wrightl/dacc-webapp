@@ -216,7 +216,7 @@ tr.projecctstr{
 /*Main text*/
 img.projectsimages{
     width: 150px;
-    display: table-cell;
+    float:left;
     padding: 10px;
 }
 p.projectsbox{
@@ -231,6 +231,7 @@ td.projectmaintext{
 }
 span.projectsdescription{
     display: table-cell;
+    padding: 10px;
 }
 
 /*Key*/
