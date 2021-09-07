@@ -195,6 +195,9 @@ ul.alphabet{
     position: fixed;
     top:9%;
     left:1%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height:80%;
 }
 td.alpha{
     width:5%;
@@ -218,6 +221,8 @@ img.projectsimages{
 p.projectsbox{
     border: 2px solid #331f00;
     background-color: #fbdd9d81;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 td.projectmaintext{
     width:75%;
@@ -301,6 +306,8 @@ div.strengthsbox{
     left:10%;
     right:10%;
     border: 2px solid #331f00;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 span.strengthstext{
     text-align: left;
@@ -327,6 +334,9 @@ div.substrengthsbox{
     left:10%;
     right:10%;
     border: 2px solid #331f00;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height:50%;
 }
 span.substrengthstext{
     text-align: left;
