@@ -29,6 +29,7 @@ body.indexpage{
     background-image: url('../../images/sunflower.jpg');
     background-repeat:repeat-x;
     background-position:bottom;
+    font-family: Andale, monospace;
 }
 #aboutbutton1 {
     background-color:#e9bf59;
@@ -233,6 +234,9 @@ span.projectsdescription{
     display: table-cell;
     padding: 10px;
 }
+a.linkhover:hover{
+    color:#a95039;
+}
 
 /*Key*/
 td.key{
@@ -285,6 +289,27 @@ span.colorseltext{
     font-size: 15pt;
     display:table-cell;
 }
+img.designkey{
+    border: 5px solid #b3c3a4;
+}
+img.thkey{
+    border: 5px solid #e0cbbc;
+}
+img.artkey{
+    border: 5px solid #c0a8a4;
+}
+img.writingkey{
+    border: 5px solid #748c58;
+}
+img.webdevkey{
+    border: 5px solid #a26420;
+}
+img.progkey{
+    border: 5px solid #a95039;
+}
+img.gamekey{
+    border: 5px solid #d7a27f;
+}
 
 
 /*PASSIONS/SKILLS PAGE*/
@@ -316,7 +341,7 @@ span.strengthstext{
     font-size: 15pt;
 }
 img.strengthsimg{
-    width:150px;
+    width:15%;
     float:right;
     padding:20px;
 }
@@ -481,4 +506,14 @@ img.personalimg2{
     position: relative;
     top: 11%;
     left: 75%;
+}
+iframe.embededvideo{
+    position:relative;
+    left:35%;
+    background-color: #e9be5983;
+    padding:15px;
+    border: 2px solid #331f00;
+}
+h3.embedheader{
+    text-align: center;
 }
