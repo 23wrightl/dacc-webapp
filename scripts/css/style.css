@@ -94,6 +94,16 @@ body.indexpage{
     font-size:50px;
     margin-left: 24%;
 }
+tr.hdottedline{
+    border-bottom: 2px dashed #331f00;
+}
+tr.vdottedlineleft{
+    border-left: 2px dashed #331f00;
+}
+tr.vdottedlineright{
+    border-right: 2px dashed #331f00;
+}
+/*
 #vdotline {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -126,7 +136,7 @@ body.indexpage{
 }
 #hdotline {
     transform: rotate(90deg);
-}
+}*/
 #logoheader{
     width: 75%;
     margin-left: auto;
@@ -458,9 +468,8 @@ div.prophoto{
 }
 #quote{
     padding: 15px;
-    position:relative;
-    top:15px;
-    left:250px;
+    padding-top:40px;
+    text-align: center;
     font-family: Andale mono, monospace;
 }
 div.quotebox{
@@ -468,34 +477,34 @@ div.quotebox{
     border: 2px solid #331f00;
     width:60%;
     height: 50px;
-    margin-left:auto;
     margin-right:auto;
+    margin-left: auto;
 }
 div.personaldescript{
     background-color: #e9be5983;
     border: 2px solid #331f00;
-    width:50%;
+    width:65%;
     height: 100px;
-    margin-left: 30%;
-    margin-right:auto;
+}
+div.leftpersonalbox{
+    padding-left:19%;
 }
 span.personaltext{
+    padding:15px;
     font-family: Andale mono, monospace;
 }
 img.personalimg{
     width: 100px;
     border: 2px solid #331f00;
-    position: relative;
-    top: 11%;
-    left: 22%;
+    float:left;
+    margin-right: 20px;
 }
 div.personaldescript2{
     background-color: #e9be5983;
     border: 2px solid #331f00;
-    width:50%;
+    width:65%;
     height: 100px;
-    margin-left: 22%;
-    margin-right:auto;
+    float:right;
 }
 span.personaltext2{
     font-family: Andale mono, monospace;
@@ -503,13 +512,15 @@ span.personaltext2{
 img.personalimg2{
     width: 100px;
     border: 2px solid #331f00;
-    position: relative;
-    top: 11%;
-    left: 75%;
+    float:right;
+    margin-left:20px;
+}
+div.rightpersonalbox{
+    padding-right:19%;
 }
 iframe.embededvideo{
-    position:relative;
-    left:35%;
+    display:block;
+    margin:0 auto;
     background-color: #e9be5983;
     padding:15px;
     border: 2px solid #331f00;
