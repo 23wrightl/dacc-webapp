@@ -292,7 +292,7 @@ div.strengthsbutton:hover{
 div.strengthsbox{
     background-color:#e9be5986;
     width:75%;
-    height:300px;
+    height:350px;
     padding: 50px;
     position:relative;
     left:10%;
@@ -396,6 +396,19 @@ div.emaildescript{
     padding:15px;
     border: 2px solid #331f00;
     width:800px;
+}
+div.emailmebox{
+    background-color: #e9be5983;
+    border: 2px solid #331f00;
+    width: 69%;
+}
+fieldset.emailmefield{
+    border: 2px solid #331f00;
+    margin-left:10px;
+}
+p.emailmeheader{
+    padding-left:10px;
+    font-size: 12pt;
 }
 
 /*ABOUT PAGE*/
