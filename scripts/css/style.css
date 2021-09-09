@@ -436,18 +436,18 @@ div.quotebox{
 div.personaldescript{
     background-color: #e9be5983;
     border: 2px solid #331f00;
-    width:65%;
+    width:58%;
     height: 100px;
+    padding:15px;
 }
 div.leftpersonalbox{
     padding-left:19%;
 }
 span.personaltext{
-    padding:15px;
     font-family: Andale mono, monospace;
 }
 img.personalimg{
-    height: 100px;
+    width: 150px;
     border: 2px solid #331f00;
     float:left;
     margin-right: 20px;
@@ -455,15 +455,16 @@ img.personalimg{
 div.personaldescript2{
     background-color: #e9be5983;
     border: 2px solid #331f00;
-    width:65%;
+    width:58%;
     height: 100px;
     float:right;
+    padding:15px;
 }
 span.personaltext2{
     font-family: Andale mono, monospace;
 }
 img.personalimg2{
-    height: 100px;
+    width: 150px;
     border: 2px solid #331f00;
     float:right;
     margin-left:20px;
