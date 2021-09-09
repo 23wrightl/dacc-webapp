@@ -380,13 +380,18 @@ div.businessemail{
     padding:15px;
     width:100;
     border: 2px solid #331f00;
-    position:relative;
-    top:45px;
+    float: left;
+    margin-right: 15px;
+}
+div.businessemail:hover{
+    background-color: #e8b12d;
+    padding:15px;
+    width:100;
+    border: 2px solid #331f00;
+    float: left;
+    margin-right: 15px;
 }
 div.emaildescript{
-    position: relative;
-    top: -25px;
-    left: 150px;
     background-color: #e9be598a;
     padding:15px;
     border: 2px solid #331f00;
