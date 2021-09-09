@@ -293,7 +293,8 @@ div.strengthsbox{
     background-color:#e9be5986;
     width:75%;
     height:350px;
-    padding: 50px;
+    padding: 20px;
+    padding-left:50px;
     position:relative;
     left:10%;
     right:10%;
