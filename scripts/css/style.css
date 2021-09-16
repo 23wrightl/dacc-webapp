@@ -411,6 +411,20 @@ p.emailmeheader{
     padding-left:10px;
     font-size: 12pt;
 }
+input{
+    background-color: #e9be598a;
+    height:25px;
+    width:500px;
+    border: 2px solid #331f00;
+    margin-left:10px;
+}
+input#messagetext{
+    background-color: #e9be598a;
+    height:100px;
+    width:500px;
+    border: 2px solid #331f00;
+    margin-left:10px;
+}
 
 /*ABOUT PAGE*/
 
